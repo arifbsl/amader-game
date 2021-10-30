@@ -13,8 +13,8 @@
 
 <body class="text-white bg-gray-900">
   <header class="border-b border-gray-700">
-    <nav class="container flex items-center justify-between px-4 py-6 mx-auto">
-      <div class="flex items-center gap-x-14">
+    <nav class="container flex flex-col items-center justify-between px-4 py-6 mx-auto lg:flex-row">
+      <div class="flex flex-col items-center lg:flex-row gap-x-14">
         <a href="/" class="text-2xl font-medium tracking-wide" title="আমাদের গেম">
           <span class="uppercase font-brand">
             Amader
@@ -36,9 +36,9 @@
 
       </div>
 
-      <div class="flex items-center gap-x-8">
+      <div class="flex items-center mt-4 lg:mt-0 gap-x-8">
         <div class="relative">
-          <input type="text" class="w-64 pl-9 pr-3 py-1.5 bg-gray-800 rounded-full focus:outline-none" placeholder="Search">
+          <input type="text" class="pl-9 pr-3 py-1.5 bg-gray-800 rounded-full focus:outline-none" placeholder="Search">
           <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-2 w-6 h-6 top-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
         </div>
         <a href="#">
